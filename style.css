@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 10px 200px;
+}
+
+header {
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+header h1 {
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+
+header h1 span {
+  font-weight: normal;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 0 50px;
+  color: #666666;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+  width: 48%;
+}
+
+.left-column h3,
+.right-column h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.left-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-column ul li {
+  margin-bottom: 10px;
+}
+
+.left-column a {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+.left-column a:hover {
+  text-decoration: underline;
+}
+
+.education,
+.skills {
+  margin-top: 40px;
+}
+
+.skills p,
+.education p,
+.about p,
+.work-experience p {
+  margin: 10px 0;
+}
+
+.work-experience ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.work-experience ul li {
+  margin-bottom: 5px;
+}
